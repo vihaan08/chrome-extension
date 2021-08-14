@@ -1,0 +1,18 @@
+{
+    "manifest_version":2,
+    "name":"TimeZone",
+    "version":"2.0.1",
+    "description":"This is a simple chrome extention that displays your current time zone",
+    "icons":{
+    "128":"clock.png"
+    },
+    "browser_action":{
+    "default_popup":"popup.html",
+    "default-icon":"clock.png",
+    "default_title":"TimeZone"
+    },
+    "permissions":["activeTab"],
+    "background":{
+    "scripts":["main.js"]
+    }
+    }
